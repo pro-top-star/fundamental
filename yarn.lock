@@ -3588,11 +3588,6 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.7.tgz#36820945061326978c42a01e56b61cd223dfdc42"
   integrity sha512-QB5D2sqfSjCmTuWcBWyJ+/44bcjO7VbjSbOE0ucoVbAsSNQc4Lt6QkgkVXkTDwkL4z/beecZNDvVX15D4P8Jbw==
 
-"@types/node@^14.14.31":
-  version "14.18.36"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.36.tgz#c414052cb9d43fab67d679d5f3c641be911f5835"
-  integrity sha512-FXKWbsJ6a1hIrRxv+FoukuHnGTgEzKYGi7kilfMae96AL9UNkPFNWJEEYWzdRI9ooIkbr4AKldyuSTLql06vLQ==
-
 "@types/node@^17.0.4":
   version "17.0.45"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.45.tgz#2c0fafd78705e7a18b7906b5201a522719dc5190"
@@ -3997,15 +3992,16 @@
     "@typescript-eslint/types" "5.53.0"
     eslint-visitor-keys "^3.3.0"
 
-"@wdio/allure-reporter@7.7.3":
-  version "7.7.3"
-  resolved "https://registry.yarnpkg.com/@wdio/allure-reporter/-/allure-reporter-7.7.3.tgz#68f69530c2c2ef3e386f4cd444afc7835b623187"
-  integrity sha512-jJO+SMVUCZIv5gUEtO8O5aT6Dnvx9/HF7pIHOQk5bthbJiXPEwBrzzxS7/QWcC98oEIJZ3VhQtkDqasbTxsxMw==
+"@wdio/allure-reporter@8.3.5":
+  version "8.3.5"
+  resolved "https://registry.yarnpkg.com/@wdio/allure-reporter/-/allure-reporter-8.3.5.tgz#1a0c94ac82b5b8c83801f185c5f5686ff119c3e0"
+  integrity sha512-i1w2GqfbLC78lUwo67IN/IVWb7jgjbgPwZNQ7/9Jveq3kJSKbTSG+zwr9XlX0uqjQbaRnePFoRvSqTDLvgeovA==
   dependencies:
-    "@types/node" "^14.14.31"
-    "@wdio/reporter" "7.7.3"
-    "@wdio/types" "7.7.3"
+    "@types/node" "^18.0.0"
+    "@wdio/reporter" "8.3.0"
+    "@wdio/types" "8.3.0"
     allure-js-commons "^1.3.2"
+    csv-stringify "^6.0.4"
     strip-ansi "^6.0.0"
 
 "@wdio/cli@7.16.16":
@@ -4193,15 +4189,6 @@
   dependencies:
     "@wdio/utils" "7.26.0"
 
-"@wdio/reporter@7.7.3":
-  version "7.7.3"
-  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.7.3.tgz#956ad81fcfad2a2f6dad52b9cdb88803a43c881b"
-  integrity sha512-zAUGgP/FZ3XF5s4RUcDGIAeum3WzkA9ll5lymytxhh/9Jj9/5c77o498ic3RGQlB8FTz+5SVmw08r7g3uekI8g==
-  dependencies:
-    "@types/node" "^14.14.31"
-    "@wdio/types" "7.7.3"
-    fs-extra "^10.0.0"
-
 "@wdio/reporter@8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-8.3.0.tgz#535d57434c703d0da8830d2b24f11b0b1de201e3"
@@ -4272,14 +4259,6 @@
   integrity sha512-mOTfWAGQ+iT58iaZhJMwlUkdEn3XEWE4jthysMLXFnSuZ2eaODVAiK31SmlS/eUqgSIaupeGqYUrtCuSNbLefg==
   dependencies:
     "@types/node" "^18.0.0"
-    got "^11.8.1"
-
-"@wdio/types@7.7.3":
-  version "7.7.3"
-  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.7.3.tgz#b92380a575d66d5f9c43b4b3c57f9311295f7545"
-  integrity sha512-ZZBQHCXKjZSQj9pf4df/QhfgQQj0vzm9hkK7YyNM+S+qnW0LExL8qQKLxTlGHDaYxk/+Jrd9pcZrJXRCoSnUaA==
-  dependencies:
-    "@types/node" "^14.14.31"
     got "^11.8.1"
 
 "@wdio/types@8.3.0":
@@ -7030,6 +7009,11 @@ cssstyle@^2.3.0:
   integrity sha512-AZL67abkUzIuvcHqk7c09cezpGNcxUxU4Ioi/05xHk4DQeTkWmGYftIE6ctU6AEt+Gn4n1lDStOtj7FKycP71A==
   dependencies:
     cssom "~0.3.6"
+
+csv-stringify@^6.0.4:
+  version "6.2.4"
+  resolved "https://registry.yarnpkg.com/csv-stringify/-/csv-stringify-6.2.4.tgz#9ae7a660b771e55c09d6cf4cf936fbbdf9499962"
+  integrity sha512-RVzGaBeHl0IspzOSiNr1e7XDM7ajuESlqetQbxH2pBPplIWycx0gAVclxNEa4lc91brK6LIE0PrdEoHtZYIHIQ==
 
 cuint@^0.2.2:
   version "0.2.2"
